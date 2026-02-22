@@ -40,6 +40,24 @@ clawhub install anvevoice
 
 ---
 
+## 📚 Category-Specific Collections
+
+Looking for skills tailored to your role? Check out these curated collections:
+
+| Collection | Target Audience | Skills | Link |
+|------------|-----------------|--------|------|
+| **Developer Skills** | Software engineers, DevOps | 50+ | [github.com/ANVEAI/openclaw-developer-skills](https://github.com/ANVEAI/openclaw-developer-skills) |
+| **Marketing Skills** | Growth marketers, SEO | 50+ | [github.com/ANVEAI/openclaw-marketing-skills](https://github.com/ANVEAI/openclaw-marketing-skills) |
+| **Productivity Skills** | Everyone | 50+ | [github.com/ANVEAI/openclaw-productivity-skills](https://github.com/ANVEAI/openclaw-productivity-skills) |
+| **Business Skills** | Business owners, ops | 50+ | [github.com/ANVEAI/openclaw-business-skills](https://github.com/ANVEAI/openclaw-business-skills) |
+| **Automation Skills** | Power users, DevOps | 50+ | [github.com/ANVEAI/openclaw-automation-skills](https://github.com/ANVEAI/openclaw-automation-skills) |
+| **AI/ML Skills** | ML engineers, researchers | 50+ | [github.com/ANVEAI/openclaw-ai-ml-skills](https://github.com/ANVEAI/openclaw-ai-ml-skills) |
+| **Startup Skills** | Founders, early teams | 50+ | [github.com/ANVEAI/openclaw-startup-skills](https://github.com/ANVEAI/openclaw-startup-skills) |
+
+**Total: 350+ OpenClaw skills across 70+ categories**
+
+---
+
 ## Contents
 
 - [Installation](#installation)
