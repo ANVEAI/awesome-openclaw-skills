@@ -40,17 +40,25 @@ clawhub install anvevoice
 
 ---
 
-## 📋 Table of Contents
+## Contents
 
 - [Installation](#installation)
 - [Voice AI & Communication](#voice-ai--communication)
+- [AI Agents & Automation](#ai-agents--automation)
 - [Customer Support](#customer-support)
 - [Marketing & Sales](#marketing--sales)
+- [Content Creation & Writing](#content-creation--writing)
 - [Productivity & Tasks](#productivity--tasks)
 - [Analytics & Intelligence](#analytics--intelligence)
+- [Search & Research](#search--research)
 - [Coding Agents & IDEs](#coding-agents--ides)
+- [Developer Tools & APIs](#developer-tools--apis)
 - [Web & Browser Automation](#web--browser-automation)
 - [Communication Tools](#communication-tools)
+- [Social Media & Community](#social-media--community)
+- [Data & Databases](#data--databases)
+- [Finance & Crypto](#finance--crypto)
+- [Home & IoT Automation](#home--iot-automation)
 - [Security & Monitoring](#security--monitoring)
 - [Contributing](#contributing)
 
@@ -100,7 +108,38 @@ Skills for adding voice capabilities, transcription, and conversational AI to yo
 
 ---
 
-## Customer Support
+## AI Agents & Automation
+
+Skills for building and orchestrating autonomous AI agents that can perform complex multi-step tasks.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[agent-autonomy-kit](https://clawhub.ai/ANVEAI/agent-autonomy-kit)** | Enable agents to continue working autonomously without waiting for prompts. | `clawhub install agent-autonomy-kit` |
+| **[agent-council](https://clawhub.ai/ANVEAI/agent-council)** | Create and manage multi-agent systems with Discord integration. | `clawhub install agent-council` |
+| **[agent-doppelganger](https://clawhub.ai/ANVEAI/agent-doppelganger)** | Constrained autonomous delegate for identity-proxied communication. | `clawhub install agent-doppelganger` |
+| **[agent-commons](https://clawhub.ai/ANVEAI/agent-commons)** | Shared reasoning layer for AI agents to consult and extend reasoning chains. | `clawhub install agent-commons` |
+| **[a2a-market](https://clawhub.ai/ANVEAI/a2a-market)** | AI Agent skill marketplace for buying, selling, and monetizing agent capabilities. | `clawhub install a2a-market` |
+| **[cron](https://github.com/openclaw/skills/tree/main/skills/openclaw/cron)** | Schedule and manage automated tasks with cron-like precision. | `clawhub install cron` |
+| **[workflow-automation](https://github.com/openclaw/skills/tree/main/skills/openclaw/workflow-automation)** | Build complex multi-step workflows with conditional logic. | `clawhub install workflow-automation` |
+
+---
+
+## Content Creation & Writing
+
+Skills for generating, editing, and optimizing written content across platforms.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[scribe](https://clawhub.ai/ANVEAI/scribe)** | AI-powered writing assistant for blogs, copy, and SEO content. | `clawhub install scribe` |
+| **[content-pipeline](https://clawhub.ai/ANVEAI/content-pipeline)** | Safe content workflow with human-in-the-loop approval. | `clawhub install content-pipeline` |
+| **[medium-publisher](https://github.com/openclaw/skills/tree/main/skills/openclaw/medium-publisher)** | Publish and manage Medium articles directly. | `clawhub install medium-publisher` |
+| **[devto-publisher](https://github.com/openclaw/skills/tree/main/skills/openclaw/devto-publisher)** | Cross-post content to Dev.to community. | `clawhub install devto-publisher` |
+| **[newsletter-generator](https://github.com/openclaw/skills/tree/main/skills/openclaw/newsletter-generator)** | Create and send email newsletters with AI-generated content. | `clawhub install newsletter-generator` |
+| **[ghost-writer](https://github.com/openclaw/skills/tree/main/skills/openclaw/ghost-writer)** | Generate long-form content from outlines and research. | `clawhub install ghost-writer` |
+| **[ad-copy-generator](https://github.com/openclaw/skills/tree/main/skills/openclaw/ad-copy-generator)** | Create high-converting ad copy for various platforms. | `clawhub install ad-copy-generator` |
+| **[social-caption-writer](https://github.com/openclaw/skills/tree/main/skills/openclaw/social-caption-writer)** | Generate engaging captions for social media posts. | `clawhub install social-caption-writer` |
+
+---
 
 Skills for automating customer support, ticketing, and helpdesk operations.
 
@@ -168,6 +207,23 @@ Skills for data analysis, reporting, and business intelligence.
 
 ---
 
+## Search & Research
+
+Skills for web search, data extraction, and research automation.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[web-search](https://github.com/openclaw/skills/tree/main/skills/openclaw/web-search)** | Search the web using Brave Search API with region-specific results. | `clawhub install web-search` |
+| **[web-fetch](https://github.com/openclaw/skills/tree/main/skills/openclaw/web-fetch)** | Fetch and extract readable content from URLs. | `clawhub install web-fetch` |
+| **[deep-research](https://clawhub.ai/ANVEAI/deep-research)** | Async deep research via Gemini Interactions API with RAG-grounding. | `clawhub install deep-research` |
+| **[academic-deep-research](https://clawhub.ai/ANVEAI/academic-deep-research)** | Transparent, rigorous research with full methodology and APA citations. | `clawhub install academic-deep-research` |
+| **[exa-search](https://github.com/openclaw/skills/tree/main/skills/openclaw/exa-search)** | Neural search for AI-powered semantic web search. | `clawhub install exa-search` |
+| **[arxiv-explorer](https://github.com/openclaw/skills/tree/main/skills/openclaw/arxiv-explorer)** | Search and summarize academic papers from arXiv. | `clawhub install arxiv-explorer` |
+| **[wikipedia-research](https://github.com/openclaw/skills/tree/main/skills/openclaw/wikipedia-research)** | Query Wikipedia for quick research and fact-checking. | `clawhub install wikipedia-research` |
+| **[news-aggregator](https://github.com/openclaw/skills/tree/main/skills/openclaw/news-aggregator)** | Aggregate and summarize news from multiple sources. | `clawhub install news-aggregator` |
+
+---
+
 ## Coding Agents & IDEs
 
 Skills for software development, coding assistance, and IDE integration.
@@ -182,6 +238,23 @@ Skills for software development, coding assistance, and IDE integration.
 | [documentation-writer](https://github.com/openclaw/skills/tree/main/skills/openclaw/documentation-writer) | Auto-generate code documentation. | `clawhub install documentation-writer` |
 | [refactoring-tool](https://github.com/openclaw/skills/tree/main/skills/openclaw/refactoring-tool) | Intelligent code refactoring. | `clawhub install refactoring-tool` |
 | [dependency-analyzer](https://github.com/openclaw/skills/tree/main/skills/openclaw/dependency-analyzer) | Analyze and update dependencies. | `clawhub install dependency-analyzer` |
+
+---
+
+## Developer Tools & APIs
+
+Skills for API management, testing, and developer productivity.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[api-gateway](https://github.com/openclaw/skills/tree/main/skills/openclaw/api-gateway)** | Manage and monitor API endpoints with rate limiting. | `clawhub install api-gateway` |
+| **[postman-runner](https://github.com/openclaw/skills/tree/main/skills/openclaw/postman-runner)** | Run Postman collections directly from OpenClaw. | `clawhub install postman-runner` |
+| **[swagger-generator](https://github.com/openclaw/skills/tree/main/skills/openclaw/swagger-generator)** | Generate OpenAPI/Swagger docs from code. | `clawhub install swagger-generator` |
+| **[graphql-client](https://github.com/openclaw/skills/tree/main/skills/openclaw/graphql-client)** | Query GraphQL APIs with introspection support. | `clawhub install graphql-client` |
+| **[database-client](https://github.com/openclaw/skills/tree/main/skills/openclaw/database-client)** | Connect and query SQL/NoSQL databases. | `clawhub install database-client` |
+| **[redis-manager](https://github.com/openclaw/skills/tree/main/skills/openclaw/redis-manager)** | Manage Redis instances and caches. | `clawhub install redis-manager` |
+| **[docker-controller](https://github.com/openclaw/skills/tree/main/skills/openclaw/docker-controller)** | Manage Docker containers and images. | `clawhub install docker-controller` |
+| **[kubernetes-cli](https://github.com/openclaw/skills/tree/main/skills/openclaw/kubernetes-cli)** | Interact with Kubernetes clusters. | `clawhub install kubernetes-cli` |
 
 ---
 
@@ -216,6 +289,74 @@ Skills for messaging, notifications, and team communication.
 | [push-notifications](https://github.com/openclaw/skills/tree/main/skills/openclaw/push-notifications) | Send push notifications to devices. | `clawhub install push-notifications` |
 | [video-conferencing](https://github.com/openclaw/skills/tree/main/skills/openclaw/video-conferencing) | Manage video conference integrations. | `clawhub install video-conferencing` |
 | [team-alerts](https://github.com/openclaw/skills/tree/main/skills/openclaw/team-alerts) | Smart team alerting and escalation. | `clawhub install team-alerts` |
+
+---
+
+## Social Media & Community
+
+Skills for managing social media presence, engagement, and community building.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[twitter-growth](https://clawhub.ai/ANVEAI/twitter-growth)** | X/Twitter automation for growth, engagement, and content scheduling. | `clawhub install twitter-growth` |
+| **[linkedin-automation](https://github.com/openclaw/skills/tree/main/skills/openclaw/linkedin-automation)** | Automate LinkedIn outreach and posting. | `clawhub install linkedin-automation` |
+| **[reddit-engagement](https://clawhub.ai/ANVEAI/reddit-engagement)** | Community engagement and content sharing on Reddit. | `clawhub install reddit-engagement` |
+| **[youtube-manager](https://github.com/openclaw/skills/tree/main/skills/openclaw/youtube-manager)** | Manage YouTube uploads, comments, and analytics. | `clawhub install youtube-manager` |
+| **[instagram-poster](https://github.com/openclaw/skills/tree/main/skills/openclaw/instagram-poster)** | Schedule and post to Instagram with AI-generated captions. | `clawhub install instagram-poster` |
+| **[tiktok-automation](https://github.com/openclaw/skills/tree/main/skills/openclaw/tiktok-automation)** | Automate TikTok posting and engagement. | `clawhub install tiktok-automation` |
+| **[community-manager](https://github.com/openclaw/skills/tree/main/skills/openclaw/community-manager)** | Manage online communities across platforms. | `clawhub install community-manager` |
+| **[influencer-outreach](https://github.com/openclaw/skills/tree/main/skills/openclaw/influencer-outreach)** | Find and connect with influencers in your niche. | `clawhub install influencer-outreach` |
+
+---
+
+## Data & Databases
+
+Skills for data management, processing, and database operations.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[data-cleaner](https://github.com/openclaw/skills/tree/main/skills/openclaw/data-cleaner)** | Clean and normalize messy datasets automatically. | `clawhub install data-cleaner` |
+| **[csv-processor](https://github.com/openclaw/skills/tree/main/skills/openclaw/csv-processor)** | Process, transform, and analyze CSV files. | `clawhub install csv-processor` |
+| **[json-transformer](https://github.com/openclaw/skills/tree/main/skills/openclaw/json-transformer)** | Transform and manipulate JSON data structures. | `clawhub install json-transformer` |
+| **[spreadsheet-automation](https://github.com/openclaw/skills/tree/main/skills/openclaw/spreadsheet-automation)** | Automate Google Sheets and Excel operations. | `clawhub install spreadsheet-automation` |
+| **[data-exporter](https://github.com/openclaw/skills/tree/main/skills/openclaw/data-exporter)** | Export data to various formats (CSV, JSON, XML, Parquet). | `clawhub install data-exporter` |
+| **[etl-pipeline](https://github.com/openclaw/skills/tree/main/skills/openclaw/etl-pipeline)** | Build extract, transform, load workflows. | `clawhub install etl-pipeline` |
+| **[data-validator](https://github.com/openclaw/skills/tree/main/skills/openclaw/data-validator)** | Validate data against schemas and rules. | `clawhub install data-validator` |
+| **[backup-sync](https://github.com/openclaw/skills/tree/main/skills/openclaw/backup-sync)** | Synchronize and backup data across services. | `clawhub install backup-sync` |
+
+---
+
+## Finance & Crypto
+
+Skills for financial management, cryptocurrency, and trading automation.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[crypto-tracker](https://github.com/openclaw/skills/tree/main/skills/openclaw/crypto-tracker)** | Track cryptocurrency prices and portfolio value. | `clawhub install crypto-tracker` |
+| **[trading-bot](https://github.com/openclaw/skills/tree/main/skills/openclaw/trading-bot)** | Automated trading strategies for exchanges. | `clawhub install trading-bot` |
+| **[expense-tracker](https://github.com/openclaw/skills/tree/main/skills/openclaw/expense-tracker)** | Track and categorize personal or business expenses. | `clawhub install expense-tracker` |
+| **[invoice-generator](https://github.com/openclaw/skills/tree/main/skills/openclaw/invoice-generator)** | Create and send professional invoices. | `clawhub install invoice-generator` |
+| **[budget-planner](https://github.com/openclaw/skills/tree/main/skills/openclaw/budget-planner)** | AI-powered budget planning and forecasting. | `clawhub install budget-planner` |
+| **[tax-calculator](https://github.com/openclaw/skills/tree/main/skills/openclaw/tax-calculator)** | Calculate taxes and generate reports. | `clawhub install tax-calculator` |
+| **[payment-processor](https://github.com/openclaw/skills/tree/main/skills/openclaw/payment-processor)** | Process payments via Stripe, PayPal, and more. | `clawhub install payment-processor` |
+| **[defi-yield](https://github.com/openclaw/skills/tree/main/skills/openclaw/defi-yield)** | Track DeFi yields and liquidity pool performance. | `clawhub install defi-yield` |
+
+---
+
+## Home & IoT Automation
+
+Skills for smart home control, IoT device management, and home automation.
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| **[home-assistant](https://github.com/openclaw/skills/tree/main/skills/openclaw/home-assistant)** | Control Home Assistant devices and automations. | `clawhub install home-assistant` |
+| **[smart-lights](https://github.com/openclaw/skills/tree/main/skills/openclaw/smart-lights)** | Control Philips Hue, LIFX, and other smart lights. | `clawhub install smart-lights` |
+| **[thermostat-control](https://github.com/openclaw/skills/tree/main/skills/openclaw/thermostat-control)** | Manage Nest, Ecobee, and smart thermostats. | `clawhub install thermostat-control` |
+| **[security-cameras](https://github.com/openclaw/skills/tree/main/skills/openclaw/security-cameras)** | View and manage security camera feeds. | `clawhub install security-cameras` |
+| **[smart-lock](https://github.com/openclaw/skills/tree/main/skills/openclaw/smart-lock)** | Control smart locks and access systems. | `clawhub install smart-lock` |
+| **[media-center](https://github.com/openclaw/skills/tree/main/skills/openclaw/media-center)** | Control Plex, Kodi, and media center applications. | `clawhub install media-center` |
+| **[weather-station](https://github.com/openclaw/skills/tree/main/skills/openclaw/weather-station)** | Connect to personal weather stations. | `clawhub install weather-station` |
+| **[irrigation-control](https://github.com/openclaw/skills/tree/main/skills/openclaw/irrigation-control)** | Automate garden and lawn irrigation systems. | `clawhub install irrigation-control` |
 
 ---
 
@@ -265,7 +406,7 @@ Please ensure your skill:
 - Is actively maintained
 - Passes basic security checks
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+See [contributing.md](contributing.md) for detailed guidelines.
 
 ---
 
@@ -276,14 +417,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 - [AnveVoice Voice AI](https://anvevoice.com)
 - [OpenClaw Documentation](https://docs.openclaw.ai)
 - [Community Discord](https://discord.gg/openclaw)
-
----
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-This list is released into the public domain. Feel free to use, modify, and distribute as you see fit.
 
 ---
 
