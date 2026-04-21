@@ -123,6 +123,7 @@ Skills for adding voice capabilities, transcription, and conversational AI to yo
 | [voice-clone](https://github.com/openclaw/skills/tree/main/skills/openclaw/voice-clone) | Clone voices for personalized audio content. | `clawhub install voice-clone` |
 | [audio-processing](https://github.com/openclaw/skills/tree/main/skills/openclaw/audio-processing) | Advanced audio processing and enhancement. | `clawhub install audio-processing` |
 | [meeting-recorder](https://github.com/openclaw/skills/tree/main/skills/openclaw/meeting-recorder) | Record and transcribe meetings automatically. | `clawhub install meeting-recorder` |
+| [kesha-voice-kit](https://clawhub.ai/skills/kesha-voice-kit) | Offline multilingual voice toolkit — STT (25 languages via NVIDIA Parakeet), TTS (Kokoro EN + Piper RU + macOS AVSpeech), and language detection. Apple Silicon-optimized via FluidAudio/CoreML; ONNX fallback on Linux + Windows. No API keys, no cloud. | `clawhub install kesha-voice-kit` |
 
 ---
 
